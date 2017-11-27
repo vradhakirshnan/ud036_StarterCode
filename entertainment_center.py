@@ -3,7 +3,7 @@
 import media
 import fresh_tomatoes
 
-#CREATING MOVIE OBJECTS BY INSTANTIATING THE movie class 
+#CREATING 6 MOVIE OBJECTS BY INSTANTIATING THE movie class 
 # PASSING IN ODER Movie Name - String, Movie Description - String, FULL LINK TO MOVIE POSTER - String, FULL LINK TO TRAILER ON YOUTUBE - String
 PulpFiction = media.Movie('Pulp Fiction', 
                             'Series of unfortunate events surrouding a suitcase and a bunch of low rent hitmen',
