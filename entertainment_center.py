@@ -3,7 +3,8 @@
 import media
 import fresh_tomatoes
 
-
+#CREATING MOVIE OBJECTS BY INSTANTIATING THE movie class 
+# PASSING IN ODER Movie Name - String, Movie Description - String, FULL LINK TO MOVIE POSTER - String, FULL LINK TO TRAILER ON YOUTUBE - String
 _pulp_fiction = media.Movie('Pulp Fiction', 'Series of unfortunate events surrouding a suitcase and a bunch of low rent hitmen','https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg' , 'https://youtu.be/s7EdQ4FqbhY')
 
 _goodfellas = media.Movie('Goodfellas','A true story of a mobster in New York in the 1990s', 'https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg','https://www.youtube.com/watch?v=qo5jJpHtI1Y')
@@ -16,6 +17,7 @@ _godfather = media.Movie('The Godfather','A story Italian American Mafia Family 
 
 _fight_club = media.Movie('Fight Club', 'An amnesiac and his friend start a violent club that moves out of the basement', 'https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg','https://www.youtube.com/watch?v=SUXWAEX2jlg')
 
-
+#LOADING EACH CLASS INTO A LIST
 _movies = [_pulp_fiction, _goodfellas, _school_of_rock, _incredibles, _godfather, _fight_club]
+#PASSING LIST TO fresh_tomatoes.open_movies_page 
 fresh_tomatoes.open_movies_page(_movies)
