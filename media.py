@@ -2,6 +2,7 @@
 
 import webbrowser
 
+
 class Movie():
     def __init__(self, _title, _storyline, _poster, _youtube):
         '''
@@ -13,7 +14,7 @@ class Movie():
         trailer_youtube_url - String
         '''
         self.title = _title
-        self.storyline  = _storyline
+        self.storyline = _storyline
         self.poster_image_url = _poster
         self.trailer_youtube_url = _youtube
 
